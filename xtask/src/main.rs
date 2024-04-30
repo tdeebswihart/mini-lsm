@@ -211,7 +211,6 @@ fn main() -> Result<()> {
             check()?;
             test()?;
             clippy()?;
-            build_book()?;
         }
         Action::Show => {
             println!("CARGO_MANIFEST_DIR={}", env!("CARGO_MANIFEST_DIR"));
